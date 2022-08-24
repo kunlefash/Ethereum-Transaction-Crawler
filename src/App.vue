@@ -4,7 +4,6 @@
       <div class="menuItems">
         <el-menu-item
           style="float: left;"
-          v-on:click="toLink(config.origintrailUrl)"
         >
         </el-menu-item>
         <el-menu-item
