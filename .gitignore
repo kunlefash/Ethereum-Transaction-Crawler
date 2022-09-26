@@ -1,3 +1,5 @@
 node_modules
 .DS.Store
 /dist
+# Local Netlify folder
+.netlify
