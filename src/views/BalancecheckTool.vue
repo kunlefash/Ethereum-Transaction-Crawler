@@ -71,7 +71,7 @@
             <img
               class="logo"
               src="../../public/img/flag-united-states.png"
-              alt=""
+              alt="flag"
               width="35"
               height="35px"
             />
@@ -94,8 +94,8 @@
           <div style="float:left; padding-right:15px;">
             <img
               class="logo"
-              src=""
-              alt=""
+              src="../../public/img/flag-european-union.png"
+              alt="flag"
               width="35"
               height="35px"
             />
@@ -118,19 +118,19 @@
           <div style="float:left; padding-right:15px;">
             <img
               class="logo"
-              src="\"
-              alt=""
+              src="../../public/img/flag-norway.png"
+              alt="flag"
               width="35"
               height="35px"
             />
           </div>
           <div class="divTableBody">
             <div class="divTableRow">
-              <div class="divTableCell"><span>NGN</span></div>
+              <div class="divTableCell"><span>NOK</span></div>
             </div>
             <div class="divTableRow">
               <div class="divTableCell">
-                {{ exchangeCurency(etherPrice.ethusd, "NGN") }}
+                {{ exchangeCurency(etherPrice.ethusd, "NOK") }}
               </div>
             </div>
           </div>
@@ -142,8 +142,8 @@
           <div style="float:left; padding-right:15px;">
             <img
               class="logo"
-              src=""
-              alt=""
+              src="../../public/img/flag-canada.png"
+              alt="flag"
               width="35"
               height="35px"
             />
@@ -166,8 +166,8 @@
           <div style="float:left; padding-right:15px;">
             <img
               class="logo"
-              src=""
-              alt=""
+              src="../../public/img/flag-hong-kong.png"
+              alt="flag"
               width="35"
               height="35px"
             />
@@ -290,8 +290,8 @@ export default {
         return value.toFixed(2);
       }
 
-      if (currency == "NGN") {
-        value = eur * this.currencyRates.NGN;
+      if (currency == "NOK") {
+        value = eur * this.currencyRates.NOK;
         return value.toFixed(2);
       }
       if (currency == "CAD") {
