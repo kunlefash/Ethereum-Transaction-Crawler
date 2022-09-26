@@ -69,8 +69,8 @@
           <div style="float:left; padding-right:25px;">
             <img
               class="logo"
-              src="../../public/img/flag-united-states.png"
-              alt="OriginTrail"
+              src="../../public/img/united-states-flag.png"
+              alt=""
               width="35"
               height="35px"
             />
@@ -91,8 +91,8 @@
           <div style="float:left; padding-right:25px;">
             <img
               class="logo"
-              src="../../public/img/flag-european-union.png"
-              alt="OriginTrail"
+              src="../../public/img/european-union-flag.png"
+              alt=""
               width="35"
               height="35px"
             />
@@ -115,19 +115,19 @@
           <div style="float:left; padding-right:25px;">
             <img
               class="logo"
-              src="../../public/img/flag-norway.png"
-              alt="OriginTrail"
+              src="../../public/img/nigeria-flag.png"
+              alt=""
               width="35"
               height="35px"
             />
           </div>
           <div class="divTableBody">
             <div class="divTableRow">
-              <div class="divTableCell"><span>NOK</span></div>
+              <div class="divTableCell"><span>NGN</span></div>
             </div>
             <div class="divTableRow">
               <div class="divTableCell">
-                {{ exchangeCurency(etherPrice.ethusd, "NOK") }}
+                {{ exchangeCurency(etherPrice.ethusd, "NGN") }}
               </div>
             </div>
           </div>
@@ -139,8 +139,8 @@
           <div style="float:left; padding-right:25px;">
             <img
               class="logo"
-              src="../../public/img/flag-canada.png"
-              alt="OriginTrail"
+              src="../../public/img/canada-flag.png"
+              alt=""
               width="35"
               height="35px"
             />
@@ -163,7 +163,7 @@
           <div style="float:left; padding-right:25px;">
             <img
               class="logo"
-              src="../../public/img/flag-hong-kong.png"
+              src="../../public/img/hong-kong-flag.png"
               alt="OriginTrail"
               width="35"
               height="35px"
@@ -213,8 +213,8 @@ export default {
         curency: "EUR",
       },
       {
-        icon: "🇳🇴",
-        curency: "NOK",
+        icon: "NGN",
+        curency: "NGN",
       },
       {
         icon: "🇨🇦",
@@ -320,8 +320,8 @@ export default {
         return value.toFixed(2);
       }
 
-      if (currency == "NOK") {
-        value = eur * this.currencyRates.NOK;
+      if (currency == "NGN") {
+        value = eur * this.currencyRates.NGN;
         return value.toFixed(2);
       }
       if (currency == "CAD") {
